@@ -1,0 +1,1103 @@
+<!doctype html>
+<html>
+<head>
+
+
+     <title>Company</title>
+    <meta charset="utf-8">
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+<style>
+html{
+scroll-behavior:smooth;
+}	
+
+
+body,html{
+  margin:0;
+  
+}
+
+.nav a{
+  text-decoration:none;
+  color:white;
+  padding:20px;
+  display:inline-block;
+ letter-spacing:3px;
+
+}
+.nav{
+  display:flex;
+  justify-content:space-between;
+  background-color:#f4511e;
+ font-family:Montserrat, sans-serif;
+   position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  z-index:100;
+  
+}
+.left{
+  margin-left:7%;
+}
+.right{
+  margin-right:6%;
+  
+}
+
+
+.right a:hover{
+  background-color:white;
+  color:#f4511e;
+
+}
+
+.jumboturn{
+  height:330px;
+ display:flex;
+  justify-content:center;
+  background-color:#f4511e;
+  align-items:center;
+}
+.suscribe h1{
+  margin:0;
+  text-align:center;
+  color:white;
+   font-family:Montserrat, sans-serif;
+   font-size:60px;
+  font-weight:300;
+}
+.form{
+  display:flex;
+}
+.suscribe p{
+  color:white;
+  font-family:Montserrat, sans-serif;
+  font-size:1.2em;
+}
+ .form input{
+    width: 430px;
+    height: 15px;
+     border:none;
+     outline:none;
+  padding:10px;
+   
+}
+
+.form button{
+    color: #fff;
+    background-color: #d9534f;
+    border:1px solid #d43f3a;
+    outline:none;
+    padding:8px 24px;
+  font-family:Montserrat, sans-serif;
+  font-size:15px;
+}
+.suscribe p{
+  text-align:center;
+    font-family:Montserrat, sans-serif;
+}
+
+
+.about,.values{
+  display:flex;
+}
+
+
+.values{
+background-color:#f6f6f6;
+}
+.lefts{
+  flex:5;
+  margin-left:0;
+  padding:60px;
+}
+.rights{
+  flex:2;
+  padding:24px;
+  padding-top:60px;
+}
+
+.values .lefts{
+ flex:2;
+}
+
+.values .rights{
+ flex:5;
+}
+
+.rights .fa, .lefts .fa {
+    font-size: 200px;
+    color:#f4511e;
+}
+
+.about .lefts h1, .values .rights h1{
+    font-family: 'Lato', sans-serif;
+    font-weight:bold;
+     color:black;
+     font-size:24px;
+     padding-top:20px;
+}
+h1{
+  margin-bottom:30px;
+}
+
+.about .lefts p:nth-of-type(1), .values .rights p:nth-of-type(1){
+    font-family: sans-serif;
+  font-size:20px;
+      color: #303030;
+    font-weight: 400;
+    padding-top:20px;
+
+  
+}
+
+.about .lefts p:nth-of-type(2), .values .rights p:nth-of-type(2){
+  padding-top:20px;
+ font-family: 'Lato', sans-serif;
+  color:#756d6d;
+   line-height:1.5;
+   padding-bottom:20px;
+}
+
+.lefts button{
+  
+    padding: 12px 18px;
+
+     border:1px solid #ccc;
+     font-family: 'Lato', sans-serif;
+   background-color:white;
+   border-radius:5px;
+}
+
+
+.column{
+display:flex;
+
+}
+
+.row{
+flex:1;
+text-align:center;
+padding:30px;
+}
+
+.service{
+ width:90%;
+ margin:auto;
+ padding-top:45px;
+ z-index:1;
+}
+
+.service h1, .service p{
+ text-align:center;
+    font-family: 'Lato', sans-serif;		
+ }
+
+.service h1{
+ font-size:23px;
+ color:#303030;
+ }
+
+
+
+
+ .service .row .fa{
+  font-size:50px;
+  color:#f4511e;
+ }
+
+  
+ .service p:nth-of-type(1){
+  font-size:20px;
+}
+
+ .service p:nth-of-type(2){
+ font-family: 'Lato', sans-serif;
+   color:#756d6d;
+}
+
+.portfolio{
+ background-color:#f6f6f6;
+ padding-top:50px;
+  z-index:1;
+
+}
+
+
+.portfolio h1, .portfolio .what{
+ text-align:center;
+ font-family: 'Lato', sans-serif;
+}
+
+.portfolio p{
+font-family: 'Lato', sans-serif;
+font-size:18px;
+color:#303030;
+}
+.portfolio h1{
+ font-size:23px;
+ color:#303030;
+ margin:40px;
+}
+
+
+.portfolio .what{
+margin-bottom:30px;
+}
+
+.photos{
+ display:flex;
+ justify-content:space-evenly;
+z-index:1;
+}
+.photo p{
+text-align:center;
+}
+
+.pricing{
+padding-top:20px;
+
+}
+
+.plans{
+ display:flex;
+ justify-content:space-evenly;
+}
+
+.plan{
+border: 1px solid #f4511e;
+width:400px;
+}
+
+
+.plan .basic h1{
+text-align:center;
+
+}
+
+.basic{
+background-color:#f4511e;
+padding:20px;
+font-family:sans-serif;
+color:white;
+
+}
+.name{
+ text-align:center;
+}
+
+.price{
+text-align:center;
+border-top:1px solid #ccc;
+}
+
+.price p:nth-of-type(1){
+ font-size:25px;
+}
+.price button{
+padding:10px 16px;
+border-radius:5px;
+outline:none;
+ border:1px solid #f4511e;	
+ background-color:#f4511e;	
+ color:white;
+font-family: 'Lato', sans-serif;
+font-size:20px;
+}
+.price button:hover{
+ background-color:white;
+ color:#f4511e;
+ cursor:pointer;
+}
+
+.price{
+margin:20px;
+
+}
+
+
+.contactform{
+ display:flex;
+}
+.contactform p{
+text-align:left;
+}
+
+.details{
+flex:4;
+margin-left:30px;
+color:#818181;
+}
+
+.forms{
+flex:6;
+}
+
+.contact{
+background-color:#f6f6f6;
+padding-top:50px;
+ padding-bottom:60px;
+ z-index:1;
+}
+.contact h1{
+ text-align:center;
+ font-family: 'Lato', sans-serif;
+font-size: 23px;
+    color: #303030
+}
+
+.forms input{
+padding:10px;
+width:41.5%;
+border:1px solid #ccc;
+outline:none;
+ font-family: 'Lato', sans-serif;
+}
+
+.forms input:nth-of-type(2){
+margin-left:15px;
+}
+.forms textarea{
+margin-top:10px;
+border:1px solid #ccc;
+outline:none;	
+resize:none;
+}
+
+.containerbtn{
+text-align:right;
+margin-right:69px;
+}
+.containerbtn button{
+padding:10px 12px;
+border:1px solid #ccc;
+background-color:white;
+font-family: 'Lato', sans-serif;
+border-radius:4px;
+
+}	
+
+.map{
+
+background-image: url("https://www.w3schools.com/w3images/map.jpg");
+background-size:cover;
+ background-position:center;
+height:600px;
+}
+
+.fotter{
+text-align:center;
+padding:60px;
+ 
+}
+
+.fotter p{
+font-family: 'Lato', sans-serif;
+font-size:15px;
+color:#333;
+}
+
+.fotter a{
+font-size:15px;
+color:#337ab7;
+font-family: 'Lato', sans-serif;
+}
+
+.fotter .fa{
+ font-size:30px;
+color:#f4511e;
+ font-weight:bold;
+}
+
+	
+services{
+visibility:hidden;
+}
+
+
+
+
+
+.animations{
+   animation-name:slide;
+  animation-duration:1s;
+}
+
+@keyframes slide{
+
+from{
+transform:translateY(20%);
+opacity:0;
+}
+
+to{
+transform:translateY(0%);
+opacity:1;
+
+}
+
+}
+
+
+
+.animate{
+   animation-name:slideup;
+  animation-duration:1s;
+}
+
+@keyframes slideup{
+
+from{
+transform:translateY(20%);
+opacity:0;
+}
+
+to{
+transform:translateY(0%);
+opacity:1;
+
+}
+
+}
+
+value{
+visibility:hidden;
+}
+
+
+	pricing{
+visibility:hidden;
+}
+.animates{
+   animation-name:slideups;
+  animation-duration:1s;
+}
+
+@keyframes slideups{
+
+from{
+transform:translateY(20%);
+opacity:0;
+}
+
+to{
+transform:translateY(0%);
+opacity:1;
+
+}
+
+}
+
+portfolio{
+ visibility:hidden;
+}
+.animatess{
+   animation-name:slideupss;
+  animation-duration:1s;
+}
+
+@keyframes slideupss{
+
+from{
+transform:translateY(20%);
+opacity:0;
+}
+
+to{
+transform:translateY(0%);
+opacity:1;
+
+}
+
+}
+
+
+.nav .right  a.active{
+background-color:white;
+color:#f4511e;
+}
+
+.customers h1{
+ font-size:23px;
+ color:#303030;
+text-align:center;
+font-family: 'Lato', sans-serif;
+padding-top:40px;
+}
+
+
+.customers{
+height:350px;
+position:relative;
+background-color:#f6f6f6;
+
+}
+.customers .slide{
+ display:none;
+}
+
+.customers i{
+position:absolute;
+top:50%;
+font-size:50px;
+color:#f4511e;
+cursor:pointer;
+}
+.customers #right{
+right:0;
+margin-right:100px;
+}
+
+
+.customers #left{
+margin-left:100px;
+}
+.slide{
+text-align:center;
+font-size:25px;
+font-family: 'Lato', sans-serif;
+}
+
+</style>
+</head>
+<body>
+  <div class="nav">
+    <div class="left">
+    <a href="#">Logo</a>
+    </div>
+      <div class="right">
+       <a href="#" id="aboutlinks">ABOUT</a>
+       <a href="#" id="serviceslinks" >SERVICES</a>
+       <a href="#" id="portfoliolinks">PORTFOLIO</a>
+       <a href="#" id="pricinglinks">PRICING</a>
+       <a href="#" id="contactlinks">CONTACT</a>
+    </div>
+    
+  </div>
+  
+  <div class="jumboturn" id="jumb">
+   <div class="suscribe">
+     <h1>Company</h1>
+     <p>We specialize in blablabla</p>
+    
+    <div class="form">
+      <input type="text"placeholder="Enter a email">
+      <button>Suscribe</button>
+    </div>
+    </div>
+  </div>
+
+    <div class="about" id="about">
+  <div class="lefts">
+    <h1>ABOUT COMPANY PAGE</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+    
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <button>Git in Touch</button>
+  </div>
+    
+    
+  <div class="rights">
+   
+<i class="fa fa-signal"></i>
+    
+   </div>
+  </div>
+
+
+  <div class="values">
+  <div class="lefts" id="value">
+  <i class="fa fa-globe"></i>
+  </div>
+    
+    
+  <div class="rights">
+   
+
+       <h1>OUR VALUES</h1>
+    <p>MISSION: Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+    
+   <p>VISION: Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+    
+   </div>
+  </div>
+  
+  
+ <div class="service" id="services">
+   <h1>SERVICES</h1>
+   <p>What we offer</p>
+  <div class="column">
+ 
+ <div class="row">
+    <i class="fa fa-power-off"></i>
+    
+    <p>POWER</p>
+    <p>Lorem ipsum dolor sit amet..</p>
+    
+ </div>
+ 
+  <div class="row">
+     <i class="fa fa-heart"></i>
+      <p>LOVE</p>
+    <p>Lorem ipsum dolor sit amet..</p>
+ </div>
+ 
+  <div class="row">
+    <i class="fa fa-suitcase"></i>
+    
+    <p>JOB DONE</p>
+    <p>Lorem ipsum dolor sit amet..</p>
+ </div>
+   
+  </div>
+
+ <div class="column">
+  
+  <div class="row">
+    <i class="fa fa-leaf"></i>
+     
+      <p>GREEN</p>
+    <p>Lorem ipsum dolor sit amet..</p>
+ </div>
+ 
+  <div class="row">
+    <i class="fa fa-certificate"></i>
+      
+      <p>CERTIFIED</p>
+    <p>Lorem ipsum dolor sit amet..</p>
+ </div>
+ 
+  <div class="row">
+     <i class="fa fa-wrench"></i>
+ 
+      <p>HARD WORK</p>
+    <p>Lorem ipsum dolor sit amet..</p>
+ </div>
+   
+  </div>
+
+ </div>
+
+
+
+ <div class="portfolio"id="portfolio">
+  <h1>PORTFOLIO</h1>
+  <p class="what">What we have created</p>
+
+  <div class="photos">
+  <div class="photo">
+ <img src="https://www.w3schools.com/bootstrap/paris.jpg">
+
+  <p>Paris</p>
+  <p> Yes, we built Paris </p>
+
+ </div>	
+
+   <div class="photo">
+   <img src="https://www.w3schools.com/bootstrap/newyork.jpg">
+
+     <p>New York</p>
+  <p>We built New York</p>
+
+  </div>	
+  
+    <div class="photo">
+    <img src="https://www.w3schools.com/bootstrap/sanfran.jpg">
+	
+
+     <p>San Francisco</p>
+  <p>Yes, San Fran is ours </p>
+
+ </div>	
+
+  </div>
+ </div>
+
+
+
+   <div class="customers">
+       <h1>WHAT OUR CUSTOMERS SAY</h1>
+    <div class="slide">
+   
+ 
+   <p>"This company is the best. I am so happy with the result!"</p>
+    <p>Michael Roe, Vice President, Comment Box</p>
+     </div>
+   
+      <div class="slide">
+      
+        <p> "One word... WOW!!"</p>
+      <p> John Doe, Salesman, Rep Inc</p>
+     </div>
+
+  
+    <div class="slide">
+     
+     <p>"Could I... BE any more happy with this company?"</p>
+    <p>Chandler Bing, Actor, FriendsAlot</p>
+     </div>
+
+    <i class="fa fa-angle-left" id="left" onclick=prevSlide();></i>
+    <i class="fa fa-angle-right" id="right" onclick=nextSlide();></i>
+   
+  </div>
+
+<div class="pricing" id="pricing">
+<div class="plans">
+   <div class="plan">
+       <div class="basic">
+      <h1>Basic</h1>
+	
+        </div>
+   
+         <div class="name">
+	
+	
+	<p>20 Lorem</p>
+
+      	<p>15 Ipsum</p>
+
+	<p>5 Dolor</p>
+
+	<p>2 Sit</p>	
+
+	<p>Endless Amet</p>
+    
+        </div>
+	
+	<div class="price">
+	<p>$19</p>
+	<p>per month</p>
+	
+	<button>Sign Up</button>
+    
+        </div>
+
+  </div>
+   <div class="plan">
+
+ <div class="basic">
+      <h1>Pro</h1>
+	
+        </div>
+   
+         <div class="name">
+	
+	
+	<p>50 Lorem</p>
+
+      	<p>15 Ipsum</p>
+
+	<p>10 Dolor</p>
+
+	<p>5 Sit</p>
+
+	<p>Endless Amet</p>
+    
+        </div>
+	
+	<div class="price">
+	<p>$29</p>
+	<p>per month</p>
+	
+	<button>Sign Up</button>
+    
+        </div>
+  </div>
+   <div class="plan">
+
+ <div class="basic">
+      <h1>Premium</h1>
+	
+        </div>
+   
+         <div class="name">
+	
+	
+	<p>100 Lorem</p>
+
+      	<p>50 Ipsum</p>
+
+	<p>25 Dolor</p>
+
+	<p>10 Sit</p>
+
+	<p>Endless Amet</p>
+    
+        </div>
+	
+	<div class="price">
+	<p>$49</p>
+	<p>per month</p>
+	
+	<button>Sign Up</button>
+    
+        </div>
+  </div>
+  
+</div>
+
+</div>
+
+
+<div class="contact" id="contact">
+<h1>CONTACT</h1>
+
+<div class="contactform">
+
+<div class="details">
+ <p>Contact us and we'll get back to you within 24 hours.</p>
+<p><i class="fa fa-map-marker"> Chicago, US</i></p>
+<p><i class="fa fa-mobile-phone"> +00 1515151515</i></p>
+<p><i class="fa fa-envelope"> myemail@something.com</i></p>
+</div>
+
+<div class="forms">
+<input type="text"placeholder="Name">
+<input type="text"placeholder="Email"><br>
+<textarea rows="6" cols="100"></textarea>
+
+
+<div class="containerbtn"><br>
+
+<button>Send </button>
+
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="map">
+
+
+</div>
+
+
+<div class="fotter">
+
+ <a href="#jumb"><i class="fa fa-angle-up"></i></a>
+
+
+<p>Bootstrap Theme Made By  <a href="https://www.w3schools.com">www.w3schools.com</a> </p>
+</div>
+
+
+
+<script>
+					
+
+ 
+ let aboutPosition=document.getElementById("about").offsetTop;
+let servicesPosition = document.getElementById("services").offsetTop;
+
+let portfolioPosition = document.getElementById("portfolio").offsetTop;
+
+let pricingPosition= document.getElementById("pricing").offsetTop;
+
+let contactPosition=document.getElementById("contact").offsetTop;
+
+document.addEventListener("scroll", function(){
+
+let scrollPosition= window.pageYOffset;
+ if(scrollPosition +300>servicesPosition){
+
+
+     document.getElementById("services").classList.add("animations");
+    document.getElementById("services").style.visibility="visible";	
+
+}
+
+
+
+let links=document.querySelectorAll(".nav .right a");
+
+ if(scrollPosition +300>contactPosition){
+
+
+   for(let i=0; i<links.length; i++){
+
+  links[i].classList.remove("active");
+}					
+
+  document.getElementById("contactlinks").classList.add("active");
+
+}
+
+
+
+
+ else if(scrollPosition +300>pricingPosition){
+  
+   for(let i=0; i<links.length; i++){
+
+  links[i].classList.remove("active");
+}					
+
+
+  document.getElementById("pricinglinks").classList.add("active");
+
+}
+
+
+
+ else if(scrollPosition +300> portfolioPosition){
+   
+
+   for(let i=0; i<links.length; i++){
+
+  links[i].classList.remove("active");
+}					
+
+
+  document.getElementById("portfoliolinks").classList.add("active");
+
+}	
+
+else if(scrollPosition +300 > servicesPosition){
+
+   
+   for(let i=0; i<links.length; i++){
+
+  links[i].classList.remove("active");
+}					
+
+
+  document.getElementById("serviceslinks").classList.add("active");
+
+}
+
+ else if(scrollPosition +300>aboutPosition){
+   
+  
+   for(let i=0; i<links.length; i++){
+
+  links[i].classList.remove("active");
+}					
+
+
+  document.getElementById("aboutlinks").classList.add("active");
+
+}
+
+
+	
+			
+});
+
+
+
+document.addEventListener("scroll", function(){
+let scrollPositions= window.pageYOffset;
+let servicesPositions = document.getElementById("value").offsetTop;
+
+ if(scrollPositions +300>servicesPositions){
+
+     document.getElementById("value").classList.add("animate");
+    document.getElementById("value").style.visibility="visible";	
+
+}
+			
+});
+
+
+document.addEventListener("scroll", function(){
+let scrollPositionss= window.pageYOffset;
+let pricingPositionss = document.getElementById("pricing").offsetTop;
+
+ if(scrollPositionss +300>pricingPositionss){
+
+     document.getElementById("pricing").classList.add("animates");
+    document.getElementById("pricing").style.visibility="visible";	
+
+}
+			
+});
+
+
+
+document.addEventListener("scroll", function(){
+let portfolioPositionsss = document.getElementById("portfolio").offsetTop;
+let scrollPositionsss= window.pageYOffset;
+ if(scrollPositionsss +300>portfolioPositionsss){
+
+     document.getElementById("portfolio").classList.add("animatess");
+    document.getElementById("portfolio").style.visibility="visible";	
+
+}
+
+
+
+
+});
+
+
+
+let slideIndex=0;
+
+function prevSlide(){
+  slideIndex -=1;
+if(slideIndex < 0){
+ 
+slideIndex = 2;
+}
+
+let slides=document.querySelectorAll(".customers .slide");
+
+for(let i=0; i<slides.length; i++){
+if(i == slideIndex){
+slides[i].style.display="block";
+}
+else{
+slides[i].style.display = "none";
+}
+}
+				
+}
+
+function nextSlide(){
+slideIndex +=1;	
+
+if(slideIndex>2){
+ 
+slideIndex=0;
+}
+
+let slides=document.querySelectorAll(".customers .slide");
+
+for(let i=0; i<slides.length; i++){
+  if(i==slideIndex){
+slides[i].style.display="block";
+}
+else{
+slides[i].style.display="none";
+}
+}
+
+}
+
+
+			
+setInterval(nextSlide,1000);
+
+
+</script>		
+</body>
+</html>
